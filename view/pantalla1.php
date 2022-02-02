@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Mostrar datos del formulario</h1>
-    <form action="./proc/res.proc.php" method="post">
+    <form action="../proc/res.proc.php" method="post">
         <input type="text" name="pokemon2" placeholder="Inserte segundo Pokemon...">
         <input type="submit">
     </form>
