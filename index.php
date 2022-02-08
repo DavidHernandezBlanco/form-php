@@ -10,10 +10,10 @@
 </head>
 
 <body>
-    <h1>Formulario para enviar datos</h1>
+    <h1>Index</h1>
     <form action="./proc/res.proc.php" method="post">
         <input type="text" name="pokemon" placeholder="Inserte Pokemon...">
-        <input type="submit">
+        <input type="submit" name="index">
     </form>
     <?php
     if (isset($_GET['msg'])) {

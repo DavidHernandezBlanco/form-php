@@ -13,7 +13,7 @@
     <h1>Mostrar datos del formulario</h1>
     <form action="../proc/res.proc.php" method="post">
         <input type="text" name="pokemon2" placeholder="Inserte segundo Pokemon...">
-        <input type="submit">
+        <input type="submit" name="pantalla1">
     </form>
     <?php
     if (isset($_GET['msg1'])) {
