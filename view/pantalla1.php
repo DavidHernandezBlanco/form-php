@@ -18,11 +18,11 @@
     ?>
     <h1>Mostrar datos del formulario</h1>
     <form action="../proc/res.proc.php" method="post">
-        <input type="text" name="pokemon2" placeholder="Inserte segundo Pokemon...">
+        <input type="text" name="pokemon" placeholder="Inserte segundo Pokemon...">
         <input type="submit" name="pantalla1">
     </form>
     <?php
-    if (isset($_GET['msg1'])) {
+    if (isset($_GET['msg'])) {
         echo '<p id="msg">Intenta con el Pokemon #'.$_GET['msg'].'</p>';
     }
     ?>
