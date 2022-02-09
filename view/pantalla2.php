@@ -7,6 +7,13 @@
     <title>Pantalla2</title>
 </head>
 <body>
-    
+<?php
+    session_start();
+    if (!($_SESSION['pantalla1']=='check')) {
+        header("Location: ../index.php");
+    }
+    ?>
+    <h1>Pantalla 2</h1>
+    <a href="../index.php">Volver a jugar</a>
 </body>
 </html>
